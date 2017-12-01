@@ -50,10 +50,32 @@ p {
     margin: 10px auto;
 }
 
+.subtitulo_interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.subtitulo_interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+
 img {
     display: block;
 }
+
+
 /* ////////// HEADER ///////// */
+
 
 .header {
     position: fixed;
@@ -87,7 +109,14 @@ img {
 .header_menu ul li a:hover {
     color: #FFF;
 }
+
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+}
+
+
 /* ////////// INTRO ///////// */
+
 
 .introducao {
     width: 100%;
@@ -133,7 +162,37 @@ img {
     letter-spacing: .1em;
 }
 
+
+/* INTRODUÇÃO INTERNA */
+
+
+.introducao_interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao_interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao_interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 6px auto 10px auto;
+}
+
+
 /* ////////// PRODUTOS ///////// */
+
 
 .produtos {
     padding: 60px 0;
@@ -181,7 +240,10 @@ img {
     padding-bottom: 20px;
 }
 
+
 /* ////////// PORTFÓLIO ///////// */
+
+
 .portfolio {
     width: 100%;
     background: #000;
@@ -204,7 +266,9 @@ img {
     color: #FFF;
 }
 
+
 /* ////////// QUALIDADE ///////// */
+
 
 .qualidade {
     padding: 60px 0;
@@ -227,6 +291,7 @@ img {
 
 .qualidade_lista {
     padding-top: 20px;
+    overflow: auto;
 }
 
 .qualidade_lista li {
@@ -252,7 +317,10 @@ img {
     margin: 6px auto;
 }
 
+
 /* ////////// QUEBRA ///////// */
+
+
 .quebra {
     width: 100%;
     height: 220px;
@@ -266,7 +334,10 @@ img {
     max-width: 400px;
 }
 
+
 /* ////////// FOOTER ///////// */
+
+
 .footer {
     width: 100%;
     background: #000;

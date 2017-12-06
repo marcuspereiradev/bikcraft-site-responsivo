@@ -18,8 +18,36 @@
         width: 26px;
         height: 26px;
     }
+    
+/* PRODUTOS */
+    
+    .produto_item h2 {
+        top: -150px;
+        margin-bottom: -56px;
+    }
+    
+    .produto_icone {
+        background: #000;
+        padding: 41px 0;
+    }
+    
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: 122px;
+        padding: 20px 30px;
+    }
+    
+    .produto_info ul li {
+        width: 181px;
+        height: 49px;
+    }
 
-}
+}/* FINAL DO ESTILO PARA TABLETS */
+
+
+
+
 /* ESTILO PARA SMARTPHONE */
 @media only screen and (max-width: 767px) {
 /* HEADER */
@@ -46,6 +74,10 @@
         display: block;
         float: left;
     }
+    
+    .header_menu ul li a.menu_ativo {
+        border-color: #fff;
+}
 
 /* INTRODUÇÃO */
     .introducao {
@@ -56,12 +88,19 @@
     }
     
     .introducao h1 {
-    font-size: 36px;
+        font-size: 36px;
+    }
+    
+/* INTRODUÇÃO INTERNA */
+
+
+    .introducao_interna {
+        margin-top: 0px;
     }
     
  /* PORTFOLIO */   
-    .portfolio-lista li:last-child {
-    padding-top: 0px;    
+    .portfolio-lista div:last-child {
+        padding-top: 0px;    
     }
     
 /* CALL to ACTION*/   
@@ -74,4 +113,61 @@
     .qualidade:after {
         display: none;
     }
-}
+    
+/* SOBRE */
+    
+    .missao_sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+    }
+    
+    .missao_sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+/* PRODUTOS */
+    
+    .produto_item h2 {
+        top: -100px;
+        margin-bottom: -64px;
+    }
+    
+    .produto_icone {
+        background: #000;
+        padding: 41px 0;
+    }
+    
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        padding: 20px 30px;
+    }
+    
+    .produto_info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    
+    .form {
+        padding-right: 0px;
+    }
+    
+    .orcamento_dados ul {
+        padding-right: 0px;
+    }
+    
+/* CONTATO */
+    
+    .contato_form {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+
+
+}/* FINAL DO ESTILO PARA SMARTPHONE */
